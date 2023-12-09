@@ -1,5 +1,5 @@
-from user_model import UserModel
-from user_dao import UserDAO
+from user.user_model import UserModel
+from user.user_dao import UserDAO
 
 class UserService:
     def __init__(self):

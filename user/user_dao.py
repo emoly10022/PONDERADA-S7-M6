@@ -1,5 +1,5 @@
 import mysql.connector
-from user_model import UserModel
+from user.user_model import UserModel
 
 def create_connection():
     return mysql.connector.connect(
